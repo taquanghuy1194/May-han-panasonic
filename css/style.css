@@ -1,0 +1,372 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: 'Minion Pro';
+	src: url('../fonts/Minion Pro Regular.ttf');
+}
+
+body {
+	font-family: "Lato", sans-serif;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+section h2 {
+	font-size: 30px;
+	font-family: "Minion Pro", serif;
+	color: #353535;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 0;
+	//margin-bottom: 20px;
+}
+
+p {
+	margin: 0;
+	color: #4a4a4a;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.anchor {
+  	display: block;
+  	height: 50px; 
+  	margin-top: -50px;
+  	visibility: hidden;
+}
+
+header #menu .navbar {
+	border: 0;
+	border-radius: 0;
+	margin: 0;
+	background: #363636;
+	border-bottom: 5px solid #00a651;
+}
+
+header #menu .navbar a {
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+
+header #menu .navbar .navbar-collapse a:hover {
+	background: #555;
+}
+
+header #menu .navbar .navbar-collapse {
+	text-align: center;
+}
+
+header #menu .navbar .navbar-header .navbar-brand {
+	font-size: 24px;
+	font-weight: 700;
+}
+
+header #menu .navbar .navbar-collapse .navbar-nav li a {
+	font-size: 20px;
+	font-weight: 700;
+	padding: 15px 23px;
+}
+
+header .banner {
+	min-height: 550px;
+	width: 100%;
+	background: #a8a8a8 url(../images/banner.jpg) center center no-repeat;
+	background-size: cover;
+	margin-top: 55px;
+	border-top: 1px solid #363636;
+	padding-top: 135px;
+}
+
+header .banner .company-caption h1 {
+	color: #ffffff;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+
+header .banner .company-caption p {
+	font-size: 16px;
+	color: #ffffff;
+}
+
+header .banner .company-caption a {
+	display: inline-block;
+	width: 266px;
+	height: 45px;
+	line-height: 45px;
+	text-align: center;
+	background: #66b610 url(../images/button-banner.jpg) no-repeat;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 25px;
+	font-weight: 900;
+	margin-top: 25px;
+}
+
+.introduce {
+	padding-top: 40px;
+	padding-bottom: 80px;
+	background: #f3f3f3;
+}
+
+.introduce .title-feature-one {
+	margin-bottom: 40px;
+}
+
+.introduce .title-feature-one h2 {
+	margin-bottom: 10px;
+}
+
+.introduce .pro .pro-cart {
+	background: #ffffff;
+	box-shadow: 0 0 5px 1px #E3E3E3;
+	text-transform: uppercase;
+}
+
+.introduce .pro .thumbnail {
+	border: 0;
+}
+
+.introduce .pro .pro-cart .col-md-5 {
+	padding: 0;
+}
+
+.introduce .pro .pro-price {
+	padding-top: 140px;
+}
+
+.introduce .pro .pro-price p {
+	font-size: 14px;
+}
+
+.introduce .pro .pro-price h3 {
+	font-size: 30px;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.introduce .pro .pro-price a {
+	display: inline-block;
+	width: 184px;
+	height: 47px;
+	line-height: 47px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 25px;
+	background: #c49f37 url(../images/button.jpg) no-repeat;
+}
+
+.introduce .pro .pro-info h3 {
+	font-size: 25px;
+	text-transform: uppercase;
+	color: #4a4a4a;
+}
+
+.feature {
+	min-height: 170px;
+	width: 100%;
+	background: #a8a8a8 url(../images/banner-middle.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.feature .title-feature-two .col-md-8 {
+	min-height: 170px;
+	display: flex;
+    align-items: center;
+}
+
+.feature .title-feature-two .col-md-8 p {
+	text-align: right;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+.feature .col-md-4 {
+	position: relative;
+}
+
+.feature img {
+	position: absolute;
+	top: -55px;
+}
+
+.feature-three {
+	padding-top: 35px;
+	padding-bottom: 90px;
+	background: #f3f3f3;
+}
+
+.feature-three .company {
+	padding-top: 50px;
+}
+
+.feature-three .company p {
+	line-height: 30px;
+}
+
+footer {
+	padding: 40px 0;
+}
+
+footer .social {
+	text-align: right;
+	margin-top: 20px;
+}
+
+footer .social ul li {
+	display: inline-block;
+}
+
+footer .social ul li a {
+	padding-left: 20px;
+	font-size: 30px;
+	color: #4a4a4a;
+}
+
+footer .copyright {
+	text-align: right;
+	padding-right: 30px;
+}
+
+footer .contact p {
+	font-size: 16px;
+}
+
+footer h2 {
+	margin: 0;
+	color: #4a4a4a;
+	font-size: 23px;
+	font-family: "Open Sans", sans-serif;
+	margin-bottom: 10px;
+	font-weight: 900;
+}
+
+@media screen and (max-width: 1200px) {
+	header #menu .navbar .navbar-header .navbar-brand {
+		font-size: 23px;
+	}
+
+	.introduce .pro .pro-price {
+		padding-top: 70px;
+	}
+
+	.introduce .pro .pro-price a {
+		width: 140px;
+		font-size: 22px;
+		background: #c49f37 url(../images/button2.jpg) no-repeat;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	header #menu .navbar .navbar-header .navbar-brand {
+		font-size: 19px;
+	}
+
+	header #menu .navbar .navbar-collapse .navbar-nav li a {
+		font-size: 17px;
+		padding: 15px 12px;
+	}
+
+	header .banner .company-caption .col-md-6 {
+		text-align: center;
+	}
+
+	.introduce .pro .pro-cart .col-md-5 {
+		padding: 15px;
+	}
+
+	.introduce .pro .pro-price {
+		padding-top: 0;
+		text-align: center;
+	}
+
+	.introduce .pro .pro-img {
+		text-align: center;
+	}
+
+	.introduce .pro .pro-price p {
+		font-size: 15px;
+	}
+
+	.introduce .pro .pro-img .img-responsive {
+		display: inline-block;
+	}
+
+	.introduce .pro .pro-info h3 {
+		font-size: 20px;
+	}
+
+	.feature .col-md-4 {
+		text-align: center;
+	}
+
+	.feature .col-md-4 img {
+		position: relative;
+	}
+
+	.feature .col-md-4 .img-responsive {
+		display: inline-block;
+	}
+
+	.feature-three .company .hot-image {
+		margin-bottom: 20px;
+	}
+
+	footer .contact {
+		text-align: center;
+	}
+
+	footer .social {
+		text-align: center;
+	}
+
+	footer .copyright {
+		text-align: center;
+		padding-right: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	section h2 {
+		font-size: 22px;
+	}
+
+	.introduce .pro {
+		margin-bottom: 20px;
+	}
+
+	.introduce .pro .pro-price a {
+		width: 184px;
+		font-size: 25px;
+		background: #c49f37 url(../images/button.jpg) no-repeat;
+	}
+
+	.introduce {
+		padding-bottom: 50px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	header .banner {
+		padding-top: 100px;
+	}
+}
+
+@media screen and (max-width: 275px) {
+	header #menu .navbar .navbar-header .navbar-brand {
+		font-size: 17px;
+	}
+}
